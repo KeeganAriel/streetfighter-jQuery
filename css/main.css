@@ -14,4 +14,16 @@ body {
 
 .ryu {
 	float: left;
+	width: 659px;
+	height: 494px;
+}
+
+.ruy-ready, .ryu-still, .ryu-throwing {
+	width: 659px;
+	height: 494px;
+
+}
+
+.ryu-ready, .ryu-throwing {
+	display: none;
 }
