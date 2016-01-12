@@ -23,18 +23,21 @@ body {
 	height: 494px;
 }
 
+.hadouken, .ruy-ready, .ryu-still, .ryu-throwing {
+	background-repeat: no-repeat;
+}
 .ryu-ready, .ryu-throwing {
 	display: none;
 }
 
-.ryu-still {
-	background-image: url('..images/ryu-standing-still.png');
+.ryu-ready {
+	background-image: url('/Users/keeganariel/Documents/thinkful/streetfighter-jQuery/images/ryu-ready-position.gif');
 }
 
-.ryu-ready {
-	background-image: url('../images/ryu-ready-position.gif');
+.ryu-still {
+	background-image: url('/Users/keeganariel/Documents/thinkful/streetfighter-jQuery/images/ryu-standing-still.png');
 }
 
 .ryu-throwing {
-	background-image: url('../images/ruy-throwing-hadouken.png');
+	background-image: url('/Users/keeganariel/Documents/thinkful/streetfighter-jQuery/images/ryu-throwing-hadouken.png');
 }
