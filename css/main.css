@@ -13,7 +13,8 @@ body {
 }
 
 .ryu {
-	float: left;
+	float: left; 
+	/*shoule line 16 be here?*/
 	width: 659px;
 	height: 494px;
 }
@@ -21,10 +22,6 @@ body {
 .ruy-ready, .ryu-still, .ryu-throwing {
 	width: 659px;
 	height: 494px;
-}
-
-.hadouken, .ruy-ready, .ryu-still, .ryu-throwing {
-	background-repeat: no-repeat;
 }
 
 .ryu-ready, .ryu-throwing {
@@ -41,6 +38,10 @@ body {
 
 .ryu-throwing {
 	background-image: url('/Users/keeganariel/Documents/thinkful/streetfighter-jQuery/images/ryu-throwing-hadouken.png');
+}
+
+.hadouken, .ruy-ready, .ryu-still, .ryu-throwing {
+	background-repeat: no-repeat;
 }
 
 .hadouken {
