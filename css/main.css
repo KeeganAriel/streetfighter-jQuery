@@ -26,6 +26,7 @@ body {
 .hadouken, .ruy-ready, .ryu-still, .ryu-throwing {
 	background-repeat: no-repeat;
 }
+
 .ryu-ready, .ryu-throwing {
 	display: none;
 }
@@ -41,3 +42,14 @@ body {
 .ryu-throwing {
 	background-image: url('/Users/keeganariel/Documents/thinkful/streetfighter-jQuery/images/ryu-throwing-hadouken.png');
 }
+
+.hadouken {
+	background-image: url('images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	float: left;
+	position: absolute;
+	z-index: none;
+}
+
