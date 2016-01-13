@@ -8,8 +8,10 @@ $(document).ready(function() {
 		$('.ryu-still').show();
 	})
 	.mousedown(function() {
-		console.log('mousedown');
 		// play hadouken sound
+		$('.ryu-ready').hide();
+		$('.ryu-throwing').show();
+		$('.hadouken').show();
 		// show hadouken and animate it to the right of the screen	
 	})
 	.mouseup(function() {
